@@ -1,12 +1,16 @@
-# React + Vite
+# Company Profile Template 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Template website company profile modern dan responsif menggunakan **React.js**, **Tailwind CSS**, dan **Framer Motion**.
 
-Currently, two official plugins are available:
+## Fitur
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Desain bersih dan minimalis
+- Responsive (mobile-friendly)
+- Animasi transisi menggunakan Framer Motion
+- Struktur folder yang rapi dan mudah dikembangkan
 
-## Expanding the ESLint configuration
+## Teknologi yang Digunakan
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React.js](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
