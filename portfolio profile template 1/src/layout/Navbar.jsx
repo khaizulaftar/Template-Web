@@ -1,15 +1,13 @@
 export default function Navbar() {
     return (
         <>
-            <header className="bg-white">
+            <header className="sticky top-0 w-full bg-white">
                 <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                     <div className="flex h-16 items-center justify-between">
                         <div className="flex-1 md:flex md:items-center md:gap-12">
                             <a className="block text-teal-600" href="#">
                                 <span className="sr-only">Home</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48" className="w-10">
-                                    <polygon fill="#1a237e" points="11,1 11,14 29,22 38,16"></polygon><polygon fill="#1a237e" points="39,18 39,32 11,47 11,16 20,21 12,45"></polygon>
-                                </svg>
+                                <img src="public/vite.svg" alt="logo" className="w-10"/>
                             </a>
                         </div>
 

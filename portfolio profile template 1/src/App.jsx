@@ -324,15 +324,15 @@ function App() {
       <section class="px-4 py-16 mx-auto max-w-screen-xl">
         <div class="grid gap-8 sm:grid-cols-3">
           <div class="text-center">
-            <h6 class="text-5xl font-bold text-purple-600">144K</h6>
+            <h6 class="text-5xl font-bold text-indigo-600">144K</h6>
             <p class="font-bold text-gray-700">Downloads</p>
           </div>
           <div class="text-center">
-            <h6 class="text-5xl font-bold text-purple-600">12.9K</h6>
+            <h6 class="text-5xl font-bold text-indigo-600">12.9K</h6>
             <p class="font-bold text-gray-700">Subscribers</p>
           </div>
           <div class="text-center">
-            <h6 class="text-5xl font-bold text-purple-600">27.3K</h6>
+            <h6 class="text-5xl font-bold text-indigo-600">27.3K</h6>
             <p class="font-bold text-gray-700">Users</p>
           </div>
         </div>
