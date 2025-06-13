@@ -58,8 +58,8 @@ export default function SideBar() {
 
     return (
         <>
-            <div className="items-center h-screen hidden md:flex">
-                <aside className="flex flex-col w-64 h-[90vh] p-6 overflow-y-auto bg-white ml-6 shadow-sm dark:bg-gray-900 dark:border-gray-700 rounded-2xl" style={{ scrollbarWidth: "none" }}>
+            <div className="items-center h-screen hidden md:flex sticky top-0">
+                <aside className="flex flex-col w-64 h-[90vh] p-6 overflow-y-auto bg-white ml-6 dark:bg-gray-900 dark:border-gray-700 rounded-2xl" style={{ scrollbarWidth: "none" }}>
                     <div className="flex gap-3 items-center">
                         <img className="object-cover w-13 h-13 rounded-full" src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&h=764&q=100" alt="" />
                         <div>

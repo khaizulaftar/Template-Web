@@ -1,5 +1,4 @@
 import { useState } from "react"
-import { Button } from "../ui/button"
 
 export default function () {
     const [openIndex, setOpenIndex] = useState<number | null>(null)
@@ -23,12 +22,14 @@ export default function () {
     ];
 
     return (
-        <div className="px-4 w-full my-12 max-w-4xl mx-auto">
+        <div className="px-4 my-16 max-w-4xl mx-auto">
             <div className="flex items-center justify-between">
                 <h1 className="text-4xl font-semibold">Hey👋, I'm Aftar!</h1>
                 <div className="flex items-center gap-3">
                     <p className="text-sm">Available for Projects</p>
-                    <Button className="rounded-full cursor-pointer">Contact Me</Button>
+                    <button className="px-6 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-black rounded-full hover:bg-black/80 focus:outline-none focus:ring focus:ring-gray-500 focus:ring-opacity-80">
+                        Contact Me
+                    </button>
                 </div>
             </div>
             <div className="mt-6 text-gray-600">
@@ -45,7 +46,7 @@ export default function () {
                         <div
                             onClick={() => setOpenIndex(isOpen ? null : i)}
                             key={i}
-                            className="p-6 flex flex-col bg-white items-center rounded-4xl shadow cursor-pointer"
+                            className="p-6 flex flex-col bg-white items-center rounded-4xl cursor-pointer"
                         >
                             <img src={v.img} className={isOpen ? "size-20" : "size-30"} alt="" />
                             <div className="w-full mt-6">

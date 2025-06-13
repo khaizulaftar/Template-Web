@@ -63,7 +63,7 @@ export default function NavBar() {
     return (
         <>
             <div className="flex md:hidden absolute w-full">
-                <aside className="flex flex-col w-full p-6 overflow-y-auto bg-white m-4 shadow-sm dark:bg-gray-900 dark:border-gray-700 rounded-2xl" style={{ scrollbarWidth: "none" }}>
+                <aside className="flex flex-col w-full p-6 overflow-y-auto bg-white m-4 dark:bg-gray-900 dark:border-gray-700 rounded-2xl" style={{ scrollbarWidth: "none" }}>
                     <div className="flex justify-between">
                         <div className="flex gap-3 items-center ">
                             <img className="object-cover w-13 h-13 rounded-full" src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&h=764&q=100" alt="" />
