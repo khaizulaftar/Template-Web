@@ -7,11 +7,11 @@ export default function ProjectsSection() {
                 <p className="text-4xl font-semibold">Projects</p>
                 <div className="p-6 rounded-2xl mt-6 bg-white">
                     <div className="grid md:grid-cols-2 gap-6">
-                        <div>
+                        <div data-aos="fade" >
                             <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZXxlbnwwfHwwfHx8MA%3D%3D" className="h-60 object-cover w-full rounded-2xl" alt="" />
-                            <p className="font-semibold mt-3">Omnifood: Revolutionizing Personalized Meal Delivery</p>
+                            <p data-aos-delay="300"  className="font-semibold mt-3">Omnifood: Revolutionizing Personalized Meal Delivery</p>
                         </div>
-                        <div>
+                        <div data-aos="fade" data-aos-delay="300">
                             <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGRlc2lnbiUyMHdlYnNpdGV8ZW58MHx8MHx8fDA%3D" className="h-60 object-cover w-full rounded-2xl" alt="" />
                             <p className="font-semibold mt-3">Natours: Elevating Adventure Travel Through Innovative Web Solutions</p>
                         </div>

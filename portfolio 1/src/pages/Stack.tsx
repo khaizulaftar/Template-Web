@@ -97,17 +97,17 @@ export default function Stack() {
     return (
         <>
             <div className="px-4 my-16 max-w-4xl mx-auto">
-                <div className="flex items-center justify-between">
-                    <h1 className="text-4xl font-semibold">Stack</h1>
-                    <div className="flex items-center gap-3">
+                <div className="flex items-center justify-between overflow-hidden">
+                    <h1 data-aos="fade-up" className="text-4xl font-semibold">Stack</h1>
+                    <div data-aos="fade-up" data-aos-delay="300" className="flex items-center gap-3">
                         <div className="flex items-center justify-center h-2 w-2 rounded-full bg-green-500">
                             <span className="absolute h-3 w-3 rounded-full bg-green-500 animate-ping duration-3000"></span>
                         </div>
                         <p className="text-sm">Available for Projects</p>
                     </div>
                 </div>
-                <p className="text-gray-600 mt-6">I work with a dynamic stack of tools like Framer, Webflow, and Hotjar to bring my ideas to life. My goal is to create designs that are not only visually appealing but also optimized for usability, accessibility, and performance.</p>
-                <div className=" flex flex-col gap-16 p-6 rounded-2xl mt-6 bg-white">
+                <p data-aos="fade" data-aos-delay="900" className="text-gray-600 mt-6">I work with a dynamic stack of tools like Framer, Webflow, and Hotjar to bring my ideas to life. My goal is to create designs that are not only visually appealing but also optimized for usability, accessibility, and performance.</p>
+                <div data-aos="fade" data-aos-delay="1200" className=" flex flex-col gap-16 p-6 rounded-2xl mt-6 bg-white">
                     {datas.map((v, i) => (
                         <div key={i}>
                             <p className="text-lg font-semibold">{v.title}</p>

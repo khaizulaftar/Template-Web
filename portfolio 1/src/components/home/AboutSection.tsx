@@ -51,10 +51,10 @@ export default function AboutSection() {
             <div className="px-4 my-16 max-w-4xl mx-auto">
                 <p className="text-4xl font-semibold">About Me</p>
                 <div className="p-6 rounded-2xl mt-6 bg-white">
-                    <div className="grid md:grid-cols-2 gap-12">
+                    <div className="grid md:grid-cols-2 gap-12 overflow-hidden">
                         {
                             datas.map((v, i) => (
-                                <div key={i}>
+                                <div data-aos="fade-right" data-aos-delay={i * 300} key={i}>
                                     <img src={v.icon} className="size-7" alt="" />
                                     <p className="mt-3 font-semibold text-lg">{v.title}</p>
                                     {v.data.map((val, ind) => (

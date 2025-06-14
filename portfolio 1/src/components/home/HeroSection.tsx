@@ -23,21 +23,21 @@ export default function () {
 
     return (
         <div className="px-4 my-16 max-w-4xl mx-auto">
-            <div className="flex flex-col sm:flex-row items-center sm:justify-between">
-                <h1 className="text-4xl font-semibold">Hey👋, I'm Aftar!</h1>
+            <div className="flex flex-col sm:flex-row items-center sm:justify-between overflow-hidden">
+                <h1 data-aos="fade-up" className="text-4xl font-semibold">Hey👋, I'm Aftar!</h1>
                 <div className="flex flex-col sm:flex-row items-center gap-3 mt-6 sm:mt-0">
-                    <div className="flex items-center gap-3">
+                    <div data-aos="fade-up" data-aos-delay="300" className="flex items-center gap-3">
                         <div className="flex items-center justify-center h-2 w-2 rounded-full bg-green-500">
                             <span className="absolute h-3 w-3 rounded-full bg-green-500 animate-ping duration-3000"></span>
                         </div>
                         <p className="text-sm">Available for Projects</p>
                     </div>
-                    <button className="px-6 py-2 cursor-pointer font-semibold text-sm tracking-wide text-white capitalize transition-colors duration-300 transform bg-black rounded-full hover:bg-black/80 focus:outline-none focus:ring focus:ring-gray-500 focus:ring-opacity-80">
+                    <button data-aos="fade-up" data-aos-delay="600" className="px-6 py-2 cursor-pointer font-semibold text-sm tracking-wide text-white capitalize transition-colors duration-300 transform bg-black rounded-full hover:bg-black/80 focus:outline-none focus:ring focus:ring-gray-500 focus:ring-opacity-80">
                         Contact Me
                     </button>
                 </div>
             </div>
-            <div className="mt-6 text-gray-600">
+            <div data-aos="fade" data-aos-delay="900" className="mt-6 text-gray-600">
                 <p>
                     I’m Nicole Harper, a passionate Creative Designer with multiple hats as you will see
                     below. I focus on creating intuitive, user-friendly, and visually engaging digital
@@ -49,11 +49,13 @@ export default function () {
                     const isOpen = openIndex === i;
                     return (
                         <div
+                            data-aos="fade-up"
+                            data-aos-delay={i * 300}
                             onClick={() => setOpenIndex(isOpen ? null : i)}
                             key={i}
-                            className="p-6 flex flex-col bg-white items-center rounded-4xl cursor-pointer"
+                            className="p-6 flex flex-col bg-white items-center rounded-4xl cursor-pointer overflow-hidden"
                         >
-                            <img src={v.img} className={isOpen ? "size-20" : "size-30"} alt="" />
+                            <img src={v.img} className={`${isOpen ? "size-20" : "size-30"} transition-all duration-500`} alt="" />
                             <div className="w-full mt-6">
                                 <div className="flex justify-between items-center">
                                     <p className="font-semibold">{v.title}</p>
@@ -67,7 +69,7 @@ export default function () {
                                         </svg>
                                     )}
                                 </div>
-                                <p className={`text-sm mt-3 text-gray-600 ${isOpen ? "block" : "hidden"}`}>
+                                <p className={`text-sm mt-3 text-gray-600 transition-all duration-500 ${isOpen ? "block" : "hidden"}`}>
                                     {v.description}
                                 </p>
                             </div>

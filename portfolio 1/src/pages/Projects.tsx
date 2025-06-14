@@ -20,17 +20,17 @@ export default function Projects() {
     return (
         <>
             <div className="px-4 my-16 max-w-4xl mx-auto">
-                <div className="flex items-center justify-between">
-                    <h1 className="text-4xl font-semibold">Projects</h1>
-                    <div className="flex items-center gap-3">
+                <div className="flex items-center justify-between overflow-hidden">
+                    <h1 data-aos="fade-up" className="text-4xl font-semibold">Projects</h1>
+                    <div data-aos="fade-up" data-aos-delay="300" className="flex items-center gap-3">
                         <div className="flex items-center justify-center h-2 w-2 rounded-full bg-green-500">
                             <span className="absolute h-3 w-3 rounded-full bg-green-500 animate-ping duration-3000"></span>
                         </div>
                         <p className="text-sm">Available for Projects</p>
                     </div>
                 </div>
-                <p className="text-gray-600 mt-6">My projects reflect my commitment to solving complex challenges through design. Whether it’s building a travel platform or enhancing a real estate website, each project is a blend of innovation, strategy, and user-first design principles.</p>
-                <div className="p-6 rounded-2xl mt-6 bg-white">
+                <p data-aos="fade" data-aos-delay="900" className="text-gray-600 mt-6">My projects reflect my commitment to solving complex challenges through design. Whether it’s building a travel platform or enhancing a real estate website, each project is a blend of innovation, strategy, and user-first design principles.</p>
+                <div data-aos="fade" data-aos-delay="1200" className="p-6 rounded-2xl mt-6 bg-white">
                     <div className="grid md:grid-cols-2 gap-x-6 gap-y-12">
                         {
                             datas.map((v, i) => (

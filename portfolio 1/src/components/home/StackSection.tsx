@@ -41,7 +41,7 @@ export default function StackSection() {
                 <div className="p-6 rounded-2xl mt-6 bg-white">
                     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
                         {items.map((v, i) => (
-                            <div key={i} className="flex items-center gap-3">
+                            <div data-aos="fade" data-aos-delay={i * 300} key={i} className="flex items-center gap-3">
                                 <div className="bg-gray-100 p-4 sm:p-6 rounded-2xl">
                                     <img src={v.img} className="size-12" alt="" />
                                 </div>

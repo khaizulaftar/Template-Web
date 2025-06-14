@@ -9,6 +9,10 @@ function App() {
   const { pathname } = useLocation();
 
   useEffect(() => {
+    (window as any).AOS?.init({
+      duration: 600,
+    });
+
     window.scrollTo(0, 0);
   }, [pathname]);
 
