@@ -23,11 +23,16 @@ export default function () {
 
     return (
         <div className="px-4 my-16 max-w-4xl mx-auto">
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col sm:flex-row items-center sm:justify-between">
                 <h1 className="text-4xl font-semibold">Hey👋, I'm Aftar!</h1>
-                <div className="flex items-center gap-3">
-                    <p className="text-sm">Available for Projects</p>
-                    <button className="px-6 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-black rounded-full hover:bg-black/80 focus:outline-none focus:ring focus:ring-gray-500 focus:ring-opacity-80">
+                <div className="flex flex-col sm:flex-row items-center gap-3 mt-6 sm:mt-0">
+                    <div className="flex items-center gap-3">
+                        <div className="flex items-center justify-center h-2 w-2 rounded-full bg-green-500">
+                            <span className="absolute h-3 w-3 rounded-full bg-green-500 animate-ping duration-3000"></span>
+                        </div>
+                        <p className="text-sm">Available for Projects</p>
+                    </div>
+                    <button className="px-6 py-2 cursor-pointer font-semibold text-sm tracking-wide text-white capitalize transition-colors duration-300 transform bg-black rounded-full hover:bg-black/80 focus:outline-none focus:ring focus:ring-gray-500 focus:ring-opacity-80">
                         Contact Me
                     </button>
                 </div>

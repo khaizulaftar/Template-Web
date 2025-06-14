@@ -17,7 +17,7 @@ export default function ProjectsSection() {
                         </div>
                     </div>
                     <div className="mt-12 flex justify-end">
-                        <Link to="" className="group relative inline-flex items-center overflow-hidden px-8 py-3">
+                        <Link to="/projects" className="group relative inline-flex items-center overflow-hidden px-8 py-3">
                             <span className="absolute -end-full transition-all group-hover:end-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 text-gray-600">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />

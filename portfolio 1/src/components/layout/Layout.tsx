@@ -9,12 +9,12 @@ type LayoutProps = {
 export default function Layout({ children }: LayoutProps) {
     return (
         <>
-            <div className="flex flex-col md:flex-row">
+            <div className="flex flex-col lg:flex-row">
                 <div>
                     <NavBar />
                     <SideBar />
                 </div>
-                <div className="mt-36 md:mt-0 w-full">{children}</div>
+                <div className="mt-20 md:mt-0 w-full">{children}</div>
             </div>
         </>
     );
