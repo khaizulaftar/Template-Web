@@ -38,7 +38,7 @@ export default function StackSection() {
         <>
             <div className="px-4 my-16 max-w-4xl mx-auto">
                 <p className="text-4xl font-semibold">Stack</p>
-                <div className="p-6 rounded-2xl mt-6 bg-white">
+                <div className="p-6 rounded-2xl mt-6 bg-white shadow">
                     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
                         {items.map((v, i) => (
                             <div data-aos="fade" data-aos-delay={i * 300} key={i} className="flex items-center gap-3">

@@ -50,7 +50,7 @@ export default function AboutSection() {
         <>
             <div className="px-4 my-16 max-w-4xl mx-auto">
                 <p className="text-4xl font-semibold">About Me</p>
-                <div className="p-6 rounded-2xl mt-6 bg-white">
+                <div className="p-6 rounded-2xl mt-6 bg-white shadow">
                     <div className="grid md:grid-cols-2 gap-12 overflow-hidden">
                         {
                             datas.map((v, i) => (

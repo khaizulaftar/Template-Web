@@ -26,7 +26,7 @@ export default function Projects() {
                         <div className="flex items-center justify-center h-2 w-2 rounded-full bg-green-500">
                             <span className="absolute h-3 w-3 rounded-full bg-green-500 animate-ping duration-3000"></span>
                         </div>
-                        <p className="text-sm">Available for Projects</p>
+                        <p className="text-sm">Available to work</p>
                     </div>
                 </div>
                 <p data-aos="fade" data-aos-delay="900" className="text-gray-600 mt-6">My projects reflect my commitment to solving complex challenges through design. Whether it’s building a travel platform or enhancing a real estate website, each project is a blend of innovation, strategy, and user-first design principles.</p>

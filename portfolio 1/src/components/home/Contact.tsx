@@ -4,8 +4,8 @@ export default function Contact() {
     return (
         <>
             <div className="px-4 my-12 max-w-4xl mx-auto">
-                <div className="flex items-center justify-center bg-white">
-                    <img src="https://images.unsplash.com/photo-1585834565211-2bf75c296c59?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTkwfHx3aGl0ZXxlbnwwfHwwfHx8MA%3D%3D" className="w-full h-75 object-cover rounded-2xl" alt="" />
+                <div className="flex items-center justify-center">
+                    <img src="https://images.unsplash.com/photo-1585834565211-2bf75c296c59?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTkwfHx3aGl0ZXxlbnwwfHwwfHx8MA%3D%3D" className="w-full h-75 object-cover rounded-2xl shadow" alt="" />
                     <div data-aos="zoom-in" data-aos-duration="1000" className="flex flex-col items-center absolute">
                         <p className="max-w-xs text-center font-semibold">Do you have any project idea you want to discuss about?</p>
                         <Link to="" className="group relative inline-flex mt-6 items-center overflow-hidden rounded-full bg-black hover:bg-black/80 px-8 py-3 text-white">

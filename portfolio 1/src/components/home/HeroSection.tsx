@@ -30,7 +30,7 @@ export default function () {
                         <div className="flex items-center justify-center h-2 w-2 rounded-full bg-green-500">
                             <span className="absolute h-3 w-3 rounded-full bg-green-500 animate-ping duration-3000"></span>
                         </div>
-                        <p className="text-sm">Available for Projects</p>
+                        <p className="text-sm">Available to work</p>
                     </div>
                     <button data-aos="fade-up" data-aos-delay="600" className="px-6 py-2 cursor-pointer font-semibold text-sm tracking-wide text-white capitalize transition-colors duration-300 transform bg-black rounded-full hover:bg-black/80 focus:outline-none focus:ring focus:ring-gray-500 focus:ring-opacity-80">
                         Contact Me
@@ -39,9 +39,7 @@ export default function () {
             </div>
             <div data-aos="fade" data-aos-delay="900" className="mt-6 text-gray-600">
                 <p>
-                    I’m Nicole Harper, a passionate Creative Designer with multiple hats as you will see
-                    below. I focus on creating intuitive, user-friendly, and visually engaging digital
-                    experiences that solve real problems and deliver measurable results.
+                    I'm Khaizul Aftar, a Web Developer dedicated to building clean, efficient, and user-centered digital solutions. I focus on delivering responsive and practical websites that meet real-world needs and create a smooth user experience
                 </p>
             </div>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 mt-12">
@@ -53,7 +51,7 @@ export default function () {
                             data-aos-delay={i * 300}
                             onClick={() => setOpenIndex(isOpen ? null : i)}
                             key={i}
-                            className="p-6 flex flex-col bg-white items-center rounded-4xl cursor-pointer overflow-hidden"
+                            className="p-6 flex flex-col bg-white shadow items-center rounded-4xl cursor-pointer overflow-hidden"
                         >
                             <img src={v.img} className={`${isOpen ? "size-20" : "size-30"} transition-all duration-500`} alt="" />
                             <div className="w-full mt-6">

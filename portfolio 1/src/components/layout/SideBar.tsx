@@ -7,7 +7,7 @@ export default function SideBar() {
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                     <path strokeLinecap="round" strokeLinejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                 </svg>,
-            "name": "home",
+            "name": "Home",
             "link":"/"
         },
         {
@@ -58,19 +58,19 @@ export default function SideBar() {
     return (
         <>
             <div className="items-center h-screen hidden lg:flex sticky top-0">
-                <aside className="flex flex-col w-64 h-[90vh] p-6 overflow-y-auto bg-white ml-6 dark:bg-gray-900 dark:border-gray-700 rounded-2xl" style={{ scrollbarWidth: "none" }}>
+                <aside className="flex flex-col w-64 h-[90vh] p-6 overflow-y-auto bg-white shadow ml-6 dark:bg-gray-900 dark:border-gray-700 rounded-2xl" style={{ scrollbarWidth: "none" }}>
                     <div className="flex gap-3 items-center">
                         <img className="object-cover w-13 h-13 rounded-full" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="" />
                         <div>
                             <h2 className="text-lg font-semibold">Khaizul Aftar</h2>
-                            <p className="text-xs text-gray-600">Creetive Design</p>
+                            <p className="text-xs text-gray-600">Web Developer</p>
                         </div>
                     </div>
 
                     <div className="flex flex-col mt-6 gap-3">
                         <nav className="flex flex-col gap-4">
                             {item1.map((v, i) => (
-                                <Link to={v.link} key={i} className="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700">
+                                <Link to={v.link} key={i} className="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-300 hover:bg-gray-100 focus:bg-gray-100 dark:hover:bg-gray-800  dark:hover:text-gray-200 hover:text-gray-700 focus:text-gray-700">
                                     {v.logo}
                                     <span className="mx-2 text-sm">{v.name}</span>
                                 </Link>

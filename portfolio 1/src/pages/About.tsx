@@ -91,7 +91,7 @@ export default function About() {
                         <div className="flex items-center justify-center h-2 w-2 rounded-full bg-green-500">
                             <span className="absolute h-3 w-3 rounded-full bg-green-500 animate-ping duration-3000"></span>
                         </div>
-                        <p className="text-sm">Available for Projects</p>
+                        <p className="text-sm">Available to work</p>
                     </div>
                 </div>
                 <p data-aos="fade" data-aos-delay="900" className="text-gray-600 mt-6">My journey has been shaped by a strong academic foundation, industry-recognized certifications, and hands-on experience with companies like Google and Adobe. I’m dedicated to designing solutions that blend creativity, functionality, and user-centric thinking.</p>

@@ -11,7 +11,7 @@ export default function NavBar() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                 </svg>,
             "name": "home",
-            "link":"/"
+            "link": "/"
         },
         {
             "logo":
@@ -19,7 +19,7 @@ export default function NavBar() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                 </svg>,
             "name": "About",
-            "link":"/about"
+            "link": "/about"
         },
         {
             "logo":
@@ -27,7 +27,7 @@ export default function NavBar() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
                 </svg>,
             "name": "Projects",
-            "link":"/projects"
+            "link": "/projects"
         },
         {
             "logo":
@@ -35,7 +35,7 @@ export default function NavBar() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M6 6.878V6a2.25 2.25 0 0 1 2.25-2.25h7.5A2.25 2.25 0 0 1 18 6v.878m-12 0c.235-.083.487-.128.75-.128h10.5c.263 0 .515.045.75.128m-12 0A2.25 2.25 0 0 0 4.5 9v.878m13.5-3A2.25 2.25 0 0 1 19.5 9v.878m0 0a2.246 2.246 0 0 0-.75-.128H5.25c-.263 0-.515.045-.75.128m15 0A2.25 2.25 0 0 1 21 12v6a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 18v-6c0-.98.626-1.813 1.5-2.122" />
                 </svg>,
             "name": "Stack",
-            "link":"/stack"
+            "link": "/stack"
         }
     ]
 
@@ -86,7 +86,7 @@ export default function NavBar() {
                         <div className="flex flex-col mt-6 gap-3">
                             <nav className="flex flex-col gap-4">
                                 {item1.map((v, i) => (
-                                    <Link to={v.link} key={i} className="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700">
+                                    <Link to={v.link} key={i} className="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-300 hover:bg-gray-100 focus:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700 focus:text-gray-700">
                                         {v.logo}
                                         <span className="mx-2 text-sm">{v.name}</span>
                                     </Link>
@@ -95,7 +95,7 @@ export default function NavBar() {
                             <hr className="text-gray-300" />
                             <nav className="flex flex-col gap-2">
                                 {item2.map((v, i) => (
-                                    <a key={i} className="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700" href="#">
+                                    <a key={i} className="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-300 hover:bg-gray-100 focus:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700 focus:text-gray-700" href="#">
                                         <img src={v.logo} className="size-8" alt="" />
                                         <span className="mx-2 text-sm">{v.name}</span>
                                     </a>
